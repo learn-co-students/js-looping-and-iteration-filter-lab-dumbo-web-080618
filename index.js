@@ -3,7 +3,7 @@ function findMatching(arr, name) {
   return arr.filter( function (name1) {
     return name1.toLowerCase() === name.toLowerCase();
   })
-}
+} ;
 
 function fuzzyMatch(arr, name) {
   // return arr.filter ( function (name1) {
